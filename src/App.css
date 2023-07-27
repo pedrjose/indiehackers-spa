@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-settings {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000924;
+  color: white;
+  gap: 2.5rem;
+}
+
+.ih-logo {
+  height: 8.5rem;
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.social-link {
+  height: 3rem;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
